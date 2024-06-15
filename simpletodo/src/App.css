@@ -1,0 +1,50 @@
+/* customCalendar.css */
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}/* CalendarStyles.css */
+
+.react-calendar {
+  border: none;
+  font-family: 'Arial', sans-serif;
+}
+
+.react-calendar__tile {
+  background: white;
+  border-radius: 12px;
+  margin: 2px;
+  padding: 10px 0;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background: #fbd38d;
+  border: 1px solid #f6ad55;
+  color: #9c4221;
+}
+
+.react-calendar__tile--active {
+  background: #f6ad55;
+  border: 1px solid #9c4221;
+  color: white;
+}
+
+.react-calendar__tile--now {
+  background: #feebc8;
+  border: 1px solid #ed8936;
+  color: #dd6b20;
+}
+
+.react-calendar__navigation button {
+  background: #f6ad55;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  margin: 2px;
+}
+
+.react-calendar__navigation button:hover {
+  background: #ed8936;
+}
